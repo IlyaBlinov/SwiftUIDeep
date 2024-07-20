@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIDeepApp: App {
     var body: some Scene {
         WindowGroup {
-					TimerTaskDemo()
+					TaskDemo4WithExecutionTaskInNotMainActor()
         }
     }
 }

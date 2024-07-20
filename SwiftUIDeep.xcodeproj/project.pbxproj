@@ -11,8 +11,11 @@
 		6F68C5512C4A421A00219D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F68C5502C4A421A00219D8D /* Assets.xcassets */; };
 		6F68C5552C4A421A00219D8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F68C5542C4A421A00219D8D /* Preview Assets.xcassets */; };
 		6F68C55C2C4A425A00219D8D /* TaskDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C55B2C4A425A00219D8D /* TaskDemo1.swift */; };
-		6F68C55F2C4A463200219D8D /* TaskDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C55E2C4A463200219D8D /* TaskDemo2.swift */; };
-		6F68C5772C4B84C800219D8D /* TimerTaskDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C5762C4B84C800219D8D /* TimerTaskDemo.swift */; };
+		6F68C55F2C4A463200219D8D /* TaskDemo2WithReloadTrigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C55E2C4A463200219D8D /* TaskDemo2WithReloadTrigger.swift */; };
+		6F68C5772C4B84C800219D8D /* TaskDemo3WithCancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C5762C4B84C800219D8D /* TaskDemo3WithCancellation.swift */; };
+		6F68C5792C4BF1B400219D8D /* TaskDemo4WithExecutionTaskInNotMainActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C5782C4BF1B400219D8D /* TaskDemo4WithExecutionTaskInNotMainActor.swift */; };
+		6F68C57B2C4C1E3600219D8D /* TaskNotificationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C57A2C4C1E3600219D8D /* TaskNotificationDemo.swift */; };
+		6F68C57D2C4C1F7F00219D8D /* TaskModifierBackport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C57C2C4C1F7F00219D8D /* TaskModifierBackport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +25,11 @@
 		6F68C5522C4A421A00219D8D /* SwiftUIDeep.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIDeep.entitlements; sourceTree = "<group>"; };
 		6F68C5542C4A421A00219D8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F68C55B2C4A425A00219D8D /* TaskDemo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDemo1.swift; sourceTree = "<group>"; };
-		6F68C55E2C4A463200219D8D /* TaskDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDemo2.swift; sourceTree = "<group>"; };
-		6F68C5762C4B84C800219D8D /* TimerTaskDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTaskDemo.swift; sourceTree = "<group>"; };
+		6F68C55E2C4A463200219D8D /* TaskDemo2WithReloadTrigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDemo2WithReloadTrigger.swift; sourceTree = "<group>"; };
+		6F68C5762C4B84C800219D8D /* TaskDemo3WithCancellation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDemo3WithCancellation.swift; sourceTree = "<group>"; };
+		6F68C5782C4BF1B400219D8D /* TaskDemo4WithExecutionTaskInNotMainActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDemo4WithExecutionTaskInNotMainActor.swift; sourceTree = "<group>"; };
+		6F68C57A2C4C1E3600219D8D /* TaskNotificationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskNotificationDemo.swift; sourceTree = "<group>"; };
+		6F68C57C2C4C1F7F00219D8D /* TaskModifierBackport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierBackport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				6F68C54C2C4A421900219D8D /* SwiftUIDeepApp.swift */,
-				6F68C55D2C4A460200219D8D /* Mastering the SwiftUI task Modifier */,
+				6F68C55D2C4A460200219D8D /* TaskModifier */,
 				6F68C5502C4A421A00219D8D /* Assets.xcassets */,
 				6F68C5522C4A421A00219D8D /* SwiftUIDeep.entitlements */,
 				6F68C5532C4A421A00219D8D /* Preview Content */,
@@ -73,14 +79,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6F68C55D2C4A460200219D8D /* Mastering the SwiftUI task Modifier */ = {
+		6F68C55D2C4A460200219D8D /* TaskModifier */ = {
 			isa = PBXGroup;
 			children = (
 				6F68C55B2C4A425A00219D8D /* TaskDemo1.swift */,
-				6F68C55E2C4A463200219D8D /* TaskDemo2.swift */,
-				6F68C5762C4B84C800219D8D /* TimerTaskDemo.swift */,
+				6F68C55E2C4A463200219D8D /* TaskDemo2WithReloadTrigger.swift */,
+				6F68C5762C4B84C800219D8D /* TaskDemo3WithCancellation.swift */,
+				6F68C5782C4BF1B400219D8D /* TaskDemo4WithExecutionTaskInNotMainActor.swift */,
+				6F68C57A2C4C1E3600219D8D /* TaskNotificationDemo.swift */,
+				6F68C57C2C4C1F7F00219D8D /* TaskModifierBackport.swift */,
 			);
-			path = "Mastering the SwiftUI task Modifier";
+			path = TaskModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +164,11 @@
 			files = (
 				6F68C55C2C4A425A00219D8D /* TaskDemo1.swift in Sources */,
 				6F68C54D2C4A421900219D8D /* SwiftUIDeepApp.swift in Sources */,
-				6F68C55F2C4A463200219D8D /* TaskDemo2.swift in Sources */,
-				6F68C5772C4B84C800219D8D /* TimerTaskDemo.swift in Sources */,
+				6F68C57D2C4C1F7F00219D8D /* TaskModifierBackport.swift in Sources */,
+				6F68C55F2C4A463200219D8D /* TaskDemo2WithReloadTrigger.swift in Sources */,
+				6F68C5772C4B84C800219D8D /* TaskDemo3WithCancellation.swift in Sources */,
+				6F68C57B2C4C1E3600219D8D /* TaskNotificationDemo.swift in Sources */,
+				6F68C5792C4BF1B400219D8D /* TaskDemo4WithExecutionTaskInNotMainActor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

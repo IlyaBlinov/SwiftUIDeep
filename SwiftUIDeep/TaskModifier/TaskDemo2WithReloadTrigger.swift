@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-struct TaskDemo2: View {
+struct TaskDemo2WithReloadTrigger: View {
 	
 	@State var status: Status = .loading
 	
@@ -82,5 +82,5 @@ struct TaskDemo2: View {
 }
 
 #Preview {
-    TaskDemo2()
+	TaskDemo2WithReloadTrigger()
 }
