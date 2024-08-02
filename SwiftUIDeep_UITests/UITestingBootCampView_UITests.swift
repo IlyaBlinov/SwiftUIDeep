@@ -21,6 +21,10 @@ final class UITestingBootCampView_UITests: XCTestCase {
 	
 	override func setUpWithError() throws {
 		continueAfterFailure = false
+		//app.launchArguments = ["-UITest_startSignedIn"]
+//		app.launchEnvironment = [
+//			"-UITest_startSignedIn" : "true"
+//		]
 		app.launch()
 		
 	}
@@ -127,6 +131,21 @@ final class UITestingBootCampView_UITests: XCTestCase {
 		
 		
 				
+	}
+	
+	func test_SignedInHomeView_navigationLinkToDestination_shouldNavigateToDestinationAndGoBack2() {
+		
+		// Given
+		let navBar = app.navigationBars["Welcome"]
+		
+		// When
+		
+		tapNavigationLink(shouldDismissDestination: true)
+		// Then
+		XCTAssertTrue(navBar.exists)
+		
+		
+		
 	}
 
 }
