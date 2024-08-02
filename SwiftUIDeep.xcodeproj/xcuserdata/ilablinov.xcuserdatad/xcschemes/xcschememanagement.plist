@@ -7,7 +7,35 @@
 		<key>SwiftUIDeep.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SwiftUIDeep_Tests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>SwiftUIDeep_UITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6F68C5482C4A421900219D8D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6FEDCBD02C54F0DB00495DE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6FEDCBE72C5A812800495DE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
