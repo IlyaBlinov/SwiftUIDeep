@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2218482C5DF4300012DCE2 /* DummyStubSpyFakeMock_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2218472C5DF4300012DCE2 /* DummyStubSpyFakeMock_Tests.swift */; };
+		6F22184A2C5DF45D0012DCE2 /* DummyStubSpyFakeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2218492C5DF45D0012DCE2 /* DummyStubSpyFakeMock.swift */; };
+		6F22184D2C5DF5250012DCE2 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22184C2C5DF5250012DCE2 /* Dummy.swift */; };
+		6F22184F2C5DF6050012DCE2 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22184E2C5DF6050012DCE2 /* Stub.swift */; };
+		6F2218522C5DF7C80012DCE2 /* Spy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2218512C5DF7C80012DCE2 /* Spy.swift */; };
+		6F2218542C5DF89E0012DCE2 /* Fake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2218532C5DF89E0012DCE2 /* Fake.swift */; };
 		6F62A5642C54EDA30075635F /* UnitTestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F62A5632C54EDA30075635F /* UnitTestingBootcampView.swift */; };
 		6F68C54D2C4A421900219D8D /* SwiftUIDeepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C54C2C4A421900219D8D /* SwiftUIDeepApp.swift */; };
 		6F68C5512C4A421A00219D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F68C5502C4A421A00219D8D /* Assets.xcassets */; };
@@ -18,7 +24,6 @@
 		6F68C57B2C4C1E3600219D8D /* TaskNotificationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C57A2C4C1E3600219D8D /* TaskNotificationDemo.swift */; };
 		6F68C57D2C4C1F7F00219D8D /* TaskModifierBackport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C57C2C4C1F7F00219D8D /* TaskModifierBackport.swift */; };
 		6FEDCBCC2C54EFA200495DE3 /* UnitTestingBootcampViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDCBCB2C54EFA200495DE3 /* UnitTestingBootcampViewModel.swift */; };
-		6FEDCBD42C54F0DB00495DE3 /* SwiftUIDeep_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDCBD32C54F0DB00495DE3 /* SwiftUIDeep_Tests.swift */; };
 		6FEDCBDB2C54F8D700495DE3 /* UnitTestingBootcampViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDCBDA2C54F8D700495DE3 /* UnitTestingBootcampViewModel_Tests.swift */; };
 		6FEDCBDD2C58B0BD00495DE3 /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDCBDC2C58B0BD00495DE3 /* NewMockDataService.swift */; };
 		6FEDCBDF2C58B0FF00495DE3 /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEDCBDE2C58B0FF00495DE3 /* NewMockDataService_Tests.swift */; };
@@ -46,6 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F2218472C5DF4300012DCE2 /* DummyStubSpyFakeMock_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyStubSpyFakeMock_Tests.swift; sourceTree = "<group>"; };
+		6F2218492C5DF45D0012DCE2 /* DummyStubSpyFakeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyStubSpyFakeMock.swift; sourceTree = "<group>"; };
+		6F22184C2C5DF5250012DCE2 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		6F22184E2C5DF6050012DCE2 /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		6F2218512C5DF7C80012DCE2 /* Spy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spy.swift; sourceTree = "<group>"; };
+		6F2218532C5DF89E0012DCE2 /* Fake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fake.swift; sourceTree = "<group>"; };
 		6F62A5632C54EDA30075635F /* UnitTestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampView.swift; sourceTree = "<group>"; };
 		6F68C5492C4A421900219D8D /* SwiftUIDeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F68C54C2C4A421900219D8D /* SwiftUIDeepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDeepApp.swift; sourceTree = "<group>"; };
@@ -60,7 +71,6 @@
 		6F68C57C2C4C1F7F00219D8D /* TaskModifierBackport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModifierBackport.swift; sourceTree = "<group>"; };
 		6FEDCBCB2C54EFA200495DE3 /* UnitTestingBootcampViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel.swift; sourceTree = "<group>"; };
 		6FEDCBD12C54F0DB00495DE3 /* SwiftUIDeep_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDeep_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FEDCBD32C54F0DB00495DE3 /* SwiftUIDeep_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDeep_Tests.swift; sourceTree = "<group>"; };
 		6FEDCBDA2C54F8D700495DE3 /* UnitTestingBootcampViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel_Tests.swift; sourceTree = "<group>"; };
 		6FEDCBDC2C58B0BD00495DE3 /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
 		6FEDCBDE2C58B0FF00495DE3 /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
@@ -96,6 +106,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F22184B2C5DF4640012DCE2 /* DummyStubSpyFakeMock */ = {
+			isa = PBXGroup;
+			children = (
+				6F2218492C5DF45D0012DCE2 /* DummyStubSpyFakeMock.swift */,
+			);
+			path = DummyStubSpyFakeMock;
+			sourceTree = "<group>";
+		};
+		6F2218502C5DF7890012DCE2 /* DummyStubSpyFakeMock_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6F2218472C5DF4300012DCE2 /* DummyStubSpyFakeMock_Tests.swift */,
+				6F22184C2C5DF5250012DCE2 /* Dummy.swift */,
+				6F22184E2C5DF6050012DCE2 /* Stub.swift */,
+				6F2218512C5DF7C80012DCE2 /* Spy.swift */,
+				6F2218532C5DF89E0012DCE2 /* Fake.swift */,
+			);
+			path = DummyStubSpyFakeMock_Tests;
+			sourceTree = "<group>";
+		};
 		6F62A5652C54EE490075635F /* UnitTestingInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				6F68C54C2C4A421900219D8D /* SwiftUIDeepApp.swift */,
+				6F22184B2C5DF4640012DCE2 /* DummyStubSpyFakeMock */,
 				6F62A5652C54EE490075635F /* UnitTestingInSwiftUI */,
 				6FEDCBE22C5A002500495DE3 /* UITestingInSwiftUI */,
 				6F68C55D2C4A460200219D8D /* TaskModifier */,
@@ -164,7 +195,7 @@
 		6FEDCBD22C54F0DB00495DE3 /* SwiftUIDeep_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6FEDCBD32C54F0DB00495DE3 /* SwiftUIDeep_Tests.swift */,
+				6F2218502C5DF7890012DCE2 /* DummyStubSpyFakeMock_Tests */,
 				6FEDCBE32C5A80EE00495DE3 /* UnitTestingBootcamp */,
 			);
 			path = SwiftUIDeep_Tests;
@@ -331,6 +362,7 @@
 				6F68C54D2C4A421900219D8D /* SwiftUIDeepApp.swift in Sources */,
 				6F68C57D2C4C1F7F00219D8D /* TaskModifierBackport.swift in Sources */,
 				6F68C55F2C4A463200219D8D /* TaskDemo2WithReloadTrigger.swift in Sources */,
+				6F22184A2C5DF45D0012DCE2 /* DummyStubSpyFakeMock.swift in Sources */,
 				6F68C5772C4B84C800219D8D /* TaskDemo3WithCancellation.swift in Sources */,
 				6F68C57B2C4C1E3600219D8D /* TaskNotificationDemo.swift in Sources */,
 				6FEDCBCC2C54EFA200495DE3 /* UnitTestingBootcampViewModel.swift in Sources */,
@@ -345,8 +377,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F2218482C5DF4300012DCE2 /* DummyStubSpyFakeMock_Tests.swift in Sources */,
+				6F22184F2C5DF6050012DCE2 /* Stub.swift in Sources */,
+				6F2218522C5DF7C80012DCE2 /* Spy.swift in Sources */,
 				6FEDCBDB2C54F8D700495DE3 /* UnitTestingBootcampViewModel_Tests.swift in Sources */,
-				6FEDCBD42C54F0DB00495DE3 /* SwiftUIDeep_Tests.swift in Sources */,
+				6F2218542C5DF89E0012DCE2 /* Fake.swift in Sources */,
+				6F22184D2C5DF5250012DCE2 /* Dummy.swift in Sources */,
 				6FEDCBDF2C58B0FF00495DE3 /* NewMockDataService_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
