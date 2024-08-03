@@ -13,6 +13,7 @@
 		6F22184F2C5DF6050012DCE2 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22184E2C5DF6050012DCE2 /* Stub.swift */; };
 		6F2218522C5DF7C80012DCE2 /* Spy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2218512C5DF7C80012DCE2 /* Spy.swift */; };
 		6F2218542C5DF89E0012DCE2 /* Fake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2218532C5DF89E0012DCE2 /* Fake.swift */; };
+		6F2218562C5E04E30012DCE2 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2218552C5E04E30012DCE2 /* Mock.swift */; };
 		6F62A5642C54EDA30075635F /* UnitTestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F62A5632C54EDA30075635F /* UnitTestingBootcampView.swift */; };
 		6F68C54D2C4A421900219D8D /* SwiftUIDeepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68C54C2C4A421900219D8D /* SwiftUIDeepApp.swift */; };
 		6F68C5512C4A421A00219D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F68C5502C4A421A00219D8D /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		6F22184E2C5DF6050012DCE2 /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
 		6F2218512C5DF7C80012DCE2 /* Spy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spy.swift; sourceTree = "<group>"; };
 		6F2218532C5DF89E0012DCE2 /* Fake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fake.swift; sourceTree = "<group>"; };
+		6F2218552C5E04E30012DCE2 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
 		6F62A5632C54EDA30075635F /* UnitTestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampView.swift; sourceTree = "<group>"; };
 		6F68C5492C4A421900219D8D /* SwiftUIDeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F68C54C2C4A421900219D8D /* SwiftUIDeepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDeepApp.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				6F22184E2C5DF6050012DCE2 /* Stub.swift */,
 				6F2218512C5DF7C80012DCE2 /* Spy.swift */,
 				6F2218532C5DF89E0012DCE2 /* Fake.swift */,
+				6F2218552C5E04E30012DCE2 /* Mock.swift */,
 			);
 			path = DummyStubSpyFakeMock_Tests;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				6F2218542C5DF89E0012DCE2 /* Fake.swift in Sources */,
 				6F22184D2C5DF5250012DCE2 /* Dummy.swift in Sources */,
 				6FEDCBDF2C58B0FF00495DE3 /* NewMockDataService_Tests.swift in Sources */,
+				6F2218562C5E04E30012DCE2 /* Mock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -73,4 +73,18 @@ final class DummyStubSpyFakeMock_Tests: XCTestCase {
 		XCTAssertEqual(sut.stockViewModels?[1].symbol, "MSFT")
 	}
 	
+	func test_onNotificationServiceStatusValidationCloseToExpiration_EmailServiceIsCalledCorrectly() {
+		let emailService = EmailServiceMock()
+		let databaseService = CloseToExpirationDatabaseServiceStub()
+		
+		let notificationService = NotificationService(
+			emailService: emailService,
+			databaseService: databaseService
+		)
+		
+		notificationService.validateStatus()
+		
+		XCTAssertTrue(emailService.verify())
+	}
+	
 }

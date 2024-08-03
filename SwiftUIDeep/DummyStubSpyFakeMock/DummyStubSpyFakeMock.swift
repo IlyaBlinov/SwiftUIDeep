@@ -7,6 +7,9 @@
 
 import Foundation
 
+typealias Days = Int
+let REGISTERED_USER = "stub_user@gmail.com"
+
 struct Stock {
 	let symbol: String
 	let quote: Quote?
@@ -18,6 +21,15 @@ struct Quote {
 	let percentChange: Double
 	let date: Date
 }
+
+protocol EmailService {
+	func sendEmail(to mail: String, subject: String)
+}
+
+protocol DatabaseService {
+	func getDaysToExpiration() -> Days
+}
+
 
 
 protocol WatchlistStore {
@@ -104,5 +116,29 @@ class WatchlistViewModel {
 		} catch {
 			errorMessage = "Error while getting the watchlist from the store"
 		}
+	}
+}
+
+
+class NotificationService {
+	private let emailService: EmailService
+	private let databaseService: DatabaseService
+	
+	init(emailService: EmailService, databaseService: DatabaseService) {
+		self.emailService = emailService
+		self.databaseService = databaseService
+	}
+	
+	func validateStatus() {
+		let days = databaseService.getDaysToExpiration()
+		
+		if isAboutToExpire(days){
+			emailService.sendEmail(to: REGISTERED_USER,
+														 subject: "Your service is close to expiration.")
+		}
+	}
+	
+	private func isAboutToExpire(_ days: Days) -> Bool {
+		days < 10
 	}
 }

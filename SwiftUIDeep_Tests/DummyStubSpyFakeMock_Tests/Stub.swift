@@ -41,3 +41,12 @@ class WatchlistStoreStub: WatchlistStore {
 
 struct AnyError: Error {}
 
+
+class CloseToExpirationDatabaseServiceStub: DatabaseService {
+	
+	func getDaysToExpiration() -> SwiftUIDeep.Days {
+		5
+	}
+	
+	
+}
